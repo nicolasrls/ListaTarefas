@@ -14,6 +14,8 @@ function adicionarTarefa() {
         // Chame a função addTarefa com o texto inserido como parâmetro
         addTarefa(tarefaInput);
         fecharPopup();
+    }else{
+        alert("Favor preencher o campo da tarefa!");
     }
 }
 
